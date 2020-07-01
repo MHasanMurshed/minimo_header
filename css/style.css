@@ -1,0 +1,103 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Inconsolata', monospace;*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+header{
+	padding: 35px 0;
+	/*border: 1px solid black;*/
+}
+.container{
+	width: 90%;
+	overflow:hidden;
+	margin: 0 auto;
+}
+.logo{
+	width: 15%;
+	float: left;
+	margin-top: 4px;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+	/*border: 1px solid red;*/
+}
+.menu ul{
+	float: right;	
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+	/*margin:0 32px;
+	margin-bottom: 34px;*/
+}
+.menu ul li a{
+	/*font-family: Playfair Display, serif;
+	font-size: 16px;
+	font-weight: 400;*/
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline block;
+	margin:0 55px;
+	transition: .3s;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+.menu ul li a:last child{
+	margin-right: 1px;
+/*hedear end*/
+/*banner start*/
+}
+section{
+margin-top: 5px;
+}
+.banner img{
+	width: 100%;
+}
+/*banner end*/
+/*newslatter start*/
+.newsletter {
+	padding: 50px 0;
+	background-color: #f0f0f0;
+	}
+	.newsletter h2 {
+	font-size: 30px;
+	color: #565656;
+	text-align: center;
+	margin-bottom: 55px;
+	}
+	.newsletter_form {
+	width: 32%;
+	margin: 0 auto;
+	position: relative;
+	}
+	.newsletter_form input {
+	width: 100%;
+	font-size: 16px;
+	background: transparent;
+	padding-bottom: 10px;
+	border: none;
+	border-bottom: 1px solid #565656;
+	outline: none;
+	}
+	.newsletter_form button {
+	position: absolute;
+	top: 15%;
+	right: 0;
+	cursor: pointer;
+	border: none;
+	background: transparent;
+	}
+	.newsletter_form button img {
+	width: 22px;
+	}
+	/*newesletter end*/
